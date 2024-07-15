@@ -1,0 +1,23 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+  echo "Использование: $0 <команда>"
+  exit 1
+fi
+
+command="$1"
+
+if [ -x "$command" ]; then
+  echo "Команда $command уже существует и имеет исполняемые права."
+  exit 1
+fi
+
+if [ -f "$command" ]; then
+  chmod +x "$command"
+  cp "$command" /usr/local/bin/
+  echo "Команда $command зарегистрирована и скопирована в /usr/local/bin/"
+else
+  echo "Команда $command не найдена."
+  exit 1
+fi
+

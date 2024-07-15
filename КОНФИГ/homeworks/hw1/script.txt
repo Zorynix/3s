@@ -1,0 +1,9 @@
+ls
+pwd
+cd etc
+cd usr
+pwd
+ls
+cat hello.txt
+cd ~
+pwd

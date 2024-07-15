@@ -1,0 +1,12 @@
+digraph "Graph" {
+	graph [rankdir=LR]
+	node [shape=ellipse]
+	"1152419c4996ae144f6440e37e71b2ed165355c9" [label="Dolbonya, date: 1699266980, header: testing, hash: 1152419c4996ae144f6440e37e71b2ed165355c9, branch: 1152419c4996ae144f6440e37e71b2ed165355c9"]
+	b5b94f22c9eb1baa82f7eed7900ea602255d85791152419c4996ae144f6440e37e71b2ed165355c9 [label="test.txt
+hash: b5b94f22c9eb1baa82f7eed7900ea602255d8579
+contents: Could not accommodate requested object type 'tree', got blob"]
+	"1152419c4996ae144f6440e37e71b2ed165355c9" -> b5b94f22c9eb1baa82f7eed7900ea602255d85791152419c4996ae144f6440e37e71b2ed165355c9 [color="#cb3c18"]
+	nodesep=2
+	ranksep=20
+	fontsize=20
+}

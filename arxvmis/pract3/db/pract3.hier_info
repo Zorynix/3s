@@ -1,0 +1,12 @@
+|pract3
+Y0 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+x1 => inst.IN0
+x2 => inst1.IN0
+x2 => inst8.IN1
+x3 => inst2.IN0
+x3 => inst5.IN2
+x4 => inst7.IN3
+x4 => inst3.IN0
+Y1 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,46 @@
+<component name="libraryTable">
+  <library name="io.quarkus.jdbc.postgresql" type="repository">
+    <properties maven-id="io.quarkus:quarkus-jdbc-postgresql:2.10.0.Final" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jdbc-postgresql/2.10.0.Final/quarkus-jdbc-postgresql-2.10.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-arc/2.10.0.Final/quarkus-arc-2.10.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/arc/arc/2.10.0.Final/arc-2.10.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/enterprise/jakarta.enterprise.cdi-api/2.0.2/jakarta.enterprise.cdi-api-2.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/el/jakarta.el-api/3.0.3/jakarta.el-api-3.0.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/interceptor/jakarta.interceptor-api/1.2.5/jakarta.interceptor-api-1.2.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/ejb/jakarta.ejb-api/3.2.6/jakarta.ejb-api-3.2.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.5.0.Final/jboss-logging-3.5.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-core/2.10.0.Final/quarkus-core-2.10.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/inject/jakarta.inject-api/1.0/jakarta.inject-api-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-ide-launcher/2.10.0.Final/quarkus-ide-launcher-2.10.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-development-mode-spi/2.10.0.Final/quarkus-development-mode-spi-2.10.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/config/smallrye-config/2.10.1/smallrye-config-2.10.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/config/smallrye-config-core/2.10.1/smallrye-config-core-2.10.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/microprofile/config/microprofile-config-api/2.0.1/microprofile-config-api-2.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-annotation/1.12.0/smallrye-common-annotation-1.12.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-expression/1.12.0/smallrye-common-expression-1.12.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-function/1.12.0/smallrye-common-function-1.12.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-constraint/1.12.0/smallrye-common-constraint-1.12.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-classloader/1.12.0/smallrye-common-classloader-1.12.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/9.3/asm-9.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/config/smallrye-config-common/2.10.1/smallrye-config-common-2.10.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logmanager/jboss-logmanager-embedded/1.0.10/jboss-logmanager-embedded-1.0.10.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging-annotations/2.2.1.Final/jboss-logging-annotations-2.2.1.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/threads/jboss-threads/3.4.2.Final/jboss-threads-3.4.2.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/slf4j/slf4j-jboss-logmanager/1.1.0.Final/slf4j-jboss-logmanager-1.1.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/graalvm/sdk/graal-sdk/22.1.0/graal-sdk-22.1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/wildfly/common/wildfly-common/1.5.4.Final-format-001/wildfly-common-1.5.4.Final-format-001.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-bootstrap-runner/2.10.0.Final/quarkus-bootstrap-runner-2.10.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-io/1.12.0/smallrye-common-io-1.12.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/crac/org-crac/0.1.1/org-crac-0.1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-fs-util/0.0.9/quarkus-fs-util-0.0.9.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/microprofile/context-propagation/microprofile-context-propagation-api/1.2/microprofile-context-propagation-api-1.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.3.6/postgresql-42.3.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

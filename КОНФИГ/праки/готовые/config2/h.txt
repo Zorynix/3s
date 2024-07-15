@@ -1,0 +1,53 @@
+//4
+include "globals.mzn";
+include "alldifferent.mzn";
+% Параметры задачи
+var 0..9: q1;
+var 0..9: q2;
+var 0..9: q3;
+var 0..9: q4;
+var 0..9: q5;
+var 0..9: q6;
+constraint alldifferent ([q1,q2,q3,q4,q5,q6]);
+constraint q3+q2+q1=q6+q5+q4;
+output ["ticket: ","\(q1)","\(q2)","\(q3)","\(q4)","\(q5)","\(q6)",];
+
+
+//5
+array [0..2] of var 0..5: menu;
+array [0..2] of var 0..8: dropdown;
+array [0..2] of var 0..2: icon;
+constraint menu [0] == 1 /\ menu [2] == 0;
+constraint dropdown [0] == 1 \/ dropdown [0] == 2;
+constraint dropdown [2] == 0;
+constraint icon[1] == 0 /\ icon[2] == 0;
+
+constraint menu [1] == 0 /\ dropdown [1] == 8 /\ dropdown [0] == 1 \/ menu [1] !=0 /\ dropdown [0] == 2 /\ dropdown [1] <= 3;
+constraint dropdown [0] == 2 /\ icon [0] == 2 \/ dropdown [0] == 1 /\ icon [0] == 1;
+
+output [if (fix(icon[0]==1)) then "root -> icons: \(icon)\n" endif];
+output ["root -> "];
+output [if (fix(icon[0]==2)) then "Menu: \(menu) -> Dropdown: \(dropdown) -> " endif];
+output [if (fix(dropdown[0]==1)) then "Menu: \(menu) -> Dropdown: \(dropdown)" endif];
+output [if (fix(dropdown[0]!=1)) then "Icons: \(icon)" endif];
+
+
+//6
+array [0..2] of var 0..2: sh;
+array [0..2] of var 0..2: ta;
+array [0..2] of var 0..2: fo;
+array [0..2] of var 0..5: le;
+array [0..2] of var 0..8: ro;
+array [0..2] of var 0..2: ri;
+constraint (fo[1]==0) \/ (fo[1]==1 /\ le[0] == 1 /\ sh[0] >= 1) /\ (ri[0] == 1 /\ sh[0] < 2 /\ ta[0]==1);
+constraint ro[0] == 1 /\ ro[1] == 0 /\ ro[2] == 0 /\ fo[0] == 1 /\ fo[2] == 0 /\ le[0] == 1 /\ le[1] == 0 /\ le[2] == 0;
+constraint ri[0]==1 /\ ri[1] == 0 /\ ri[2] == 0 /\ sh[1] == 0 /\ sh[2] == 0 /\ ta[1] == 0 /\ ta[2] == 0;
+output[if(fix(ta[0]==2))then "root \(ro) требует target \(ta)\n" endif, if (fix(fo[1]==0 /\ ta[0] == 2)) then "root \(ro) требует foo \(fo)\n"endif, if (fix(fo[1]==1 /\ sh[0] == 1)) then "root \(ro) требует foo \(fo) требует left \(le) и требует right \(ri) требует shared \(sh) требует target \(ta) " endif];
+
+Преобразованный для удобства чтения ответ:
+root 1.0.0 требует target 2.0.0
+(ИЛИ)
+root 1.0.0 требует foo 1.0.0
+(ИЛИ)
+root 1.0.0  требует foo 1.1.0 , который требует left 1.0.0 (И) right 1.0.0, потребуется shared 1.0.0, который требует target 1.0.0.
+

@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Alex/Desktop/3sem/arxvmis/pract4/praca4.tdf
+source_file = 1, C:/Users/Alex/Desktop/3sem/arxvmis/pract4/db/praca4.cbx.xml
+design_name = praca4
+instance = comp, \Y0~output\, Y0~output, praca4, 1
+instance = comp, \Y1~output\, Y1~output, praca4, 1
+instance = comp, \x0~input\, x0~input, praca4, 1
+instance = comp, \x2~input\, x2~input, praca4, 1
+instance = comp, \x3~input\, x3~input, praca4, 1
+instance = comp, \x1~input\, x1~input, praca4, 1
+instance = comp, \Y0~0\, Y0~0, praca4, 1
+instance = comp, \Y1~0\, Y1~0, praca4, 1

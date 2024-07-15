@@ -1,0 +1,24 @@
+#!/bin/bash
+
+if [ $# -ne 2 ]; then
+  echo "Использование: $0 <расширение_файлов> <имя_архива>"
+  exit 1
+fi
+
+extension="$1"
+archive_name="$2"
+
+# Поиск файлов с заданным расширением в текущем каталоге
+files=$(find . -type f -name "*.$extension")
+
+# Проверка наличия файлов
+if [ -z "$files" ]; then
+  echo "Файлов с расширением .$extension не найдено."
+  exit 1
+fi
+
+# Архивация файлов
+tar -czvf "$archive_name.tar.gz" $files
+
+echo "Файлы с расширением .$extension были архивированы в $archive_name.tar.gz"
+

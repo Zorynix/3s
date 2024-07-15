@@ -1,0 +1,9 @@
+|praca2kostya
+A => _.IN1
+B => _.IN0
+C => _.IN0
+C => _.IN0
+D => _.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

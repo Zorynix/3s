@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Alex/Desktop/3sem/arxvmis/pract2/pract2.tdf
+source_file = 1, C:/Users/Alex/Desktop/3sem/arxvmis/pract2/Waveform.vwf
+source_file = 1, C:/Users/Alex/Desktop/3sem/arxvmis/pract2/db/pract2.cbx.xml
+design_name = pract2
+instance = comp, \Y~output , Y~output, pract2, 1
+instance = comp, \D~input , D~input, pract2, 1
+instance = comp, \C~input , C~input, pract2, 1
+instance = comp, \A~input , A~input, pract2, 1
+instance = comp, \B~input , B~input, pract2, 1
+instance = comp, \Y~0 , Y~0, pract2, 1

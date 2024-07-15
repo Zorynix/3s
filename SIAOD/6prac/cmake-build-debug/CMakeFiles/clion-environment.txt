@@ -1,0 +1,4 @@
+ToolSet: 11.0 w64 (local)@C:\Users\Alex\AppData\Local\Programs\CLion Nova\bin\mingw
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=C:/Users/Alex/AppData/Local/Programs/CLion Nova/bin/ninja/win/x64/ninja.exe

@@ -1,0 +1,19 @@
+|pract7
+a => na.IN0
+a => r0.IN0
+a => r1.IN1
+b => nb.IN0
+b => r2.IN0
+b => r3.IN1
+b => r4.IN0
+b => r5.IN1
+clock => trig0.CLK
+clock => trig1.CLK
+clock => trig2.CLK
+clock => trig3.CLK
+q[0] <= trig0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= trig1.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= trig2.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= trig3.DB_MAX_OUTPUT_PORT_TYPE
+
+

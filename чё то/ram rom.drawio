@@ -1,0 +1,109 @@
+<mxfile host="Electron" modified="2023-11-10T07:00:04.359Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="S_VCkt45XJVvZ6wj9Iv2" version="22.0.2" type="device">
+  <diagram name="Страница — 1" id="7B8ZxjvghAJlgUH0ggax">
+    <mxGraphModel dx="592" dy="350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=default;fillColor=#F2CC8F;labelBackgroundColor=none;" edge="1" parent="1" source="bGw3xRpWZ3hDp7nRGHOz-2" target="bGw3xRpWZ3hDp7nRGHOz-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="65" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=default;fillColor=#F2CC8F;labelBackgroundColor=none;" edge="1" parent="1" source="bGw3xRpWZ3hDp7nRGHOz-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="65" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-2" value="Semiconductor Memory&lt;br&gt;Technologies" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="30" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="bGw3xRpWZ3hDp7nRGHOz-3" target="bGw3xRpWZ3hDp7nRGHOz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="bGw3xRpWZ3hDp7nRGHOz-3" target="bGw3xRpWZ3hDp7nRGHOz-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-3" value="RAM&lt;br&gt;(random access memory)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3A5431;fontColor=#ffffff;fillColor=#6d8764;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="bGw3xRpWZ3hDp7nRGHOz-7" target="bGw3xRpWZ3hDp7nRGHOz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="bGw3xRpWZ3hDp7nRGHOz-7" target="bGw3xRpWZ3hDp7nRGHOz-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-7" value="ROM&lt;br&gt;(read only memory)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B20000;fontColor=#ffffff;fillColor=#e51400;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-8" value="DRAM" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#10739e;fillColor=#b1ddf0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-9" value="DRAM" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#432D57;fillColor=#76608a;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="390" y="240" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="bGw3xRpWZ3hDp7nRGHOz-12" target="bGw3xRpWZ3hDp7nRGHOz-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="bGw3xRpWZ3hDp7nRGHOz-12" target="bGw3xRpWZ3hDp7nRGHOz-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="bGw3xRpWZ3hDp7nRGHOz-12" target="bGw3xRpWZ3hDp7nRGHOz-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="bGw3xRpWZ3hDp7nRGHOz-12" target="bGw3xRpWZ3hDp7nRGHOz-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-12" value="PROM" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B09500;fillColor=#e3c800;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="240" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-13" value="MROM" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#C73500;fillColor=#fa6800;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="240" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-16" value="EPROM" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3700CC;fillColor=#6a00ff;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="455" y="360" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-17" value="EEPROM" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="545" y="360" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="bGw3xRpWZ3hDp7nRGHOz-18" target="bGw3xRpWZ3hDp7nRGHOz-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="bGw3xRpWZ3hDp7nRGHOz-18" target="bGw3xRpWZ3hDp7nRGHOz-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-18" value="FLASH" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2D7600;fillColor=#60a917;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="635" y="360" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-19" value="PCM" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6F0000;fillColor=#a20025;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="725" y="360" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-24" value="NOR" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#A50040;fillColor=#d80073;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="590" y="460" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-25" value="NAND" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#A50040;fillColor=#d80073;labelBackgroundColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="680" y="460" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-28" value="&lt;font color=&quot;#000000&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;DRAM (Dynamic Random-Access Memory):&lt;/strong&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Хранит данные в виде заряда в емкости конденсатора.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Требует периодической активации (обновления) для удержания данных.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Более высокая плотность хранения данных, но медленнее по сравнению с SRAM.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-29" value="&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;SRAM (Static Random-Access Memory):&lt;/strong&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Хранит данные в виде бистабильных элементов (например, триггеров).&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Не требует периодического обновления, что обеспечивает более быстрый доступ к данным.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Более быстрая, но менее плотная по сравнению с DRAM.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;&lt;p&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="20" y="230" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-30" value="&lt;font color=&quot;#000000&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;1. ROM (Read-Only Memory):&lt;/strong&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Только для чтения.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Неизменяемая при записи информация.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Используется для хранения постоянных данных и программ&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;background-color: initial; display: inline !important;&quot;&gt;&lt;strong&gt;2. RAM (Random-Access Memory):&lt;/strong&gt;&lt;/p&gt;&lt;/font&gt;&lt;p style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Общий термин для типа памяти, к которой можно обратиться в случайном порядке для чтения и записи данных.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Способна быстро читать и записывать данные, но теряет информацию при отключении питания.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Делятся на два основных подтипа: DRAM (Dynamic RAM) и SRAM (Static RAM).&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Используется для временного хранения данных и программ во время работы компьютера или других электронных устройств.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;&lt;p style=&quot;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;&lt;br/&gt;line-height:normal&quot; class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;3. PROM (Programmable Read-Only Memory):&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;line-height: 120%;&quot; type=&quot;disc&quot;&gt; &lt;li style=&quot;color:black;mso-themecolor:text1;mso-margin-top-alt:&lt;br/&gt;     auto;mso-margin-bottom-alt:auto;line-height:normal;mso-list:l0 level1 lfo1;&lt;br/&gt;     tab-stops:list 36.0pt&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;border: 1pt none windowtext; padding: 0cm;&quot;&gt;Записываемая один раз пользователем.&lt;/span&gt;&lt;/li&gt; &lt;li style=&quot;color:black;mso-themecolor:text1;mso-margin-top-alt:&lt;br/&gt;     auto;mso-margin-bottom-alt:auto;line-height:normal;mso-list:l0 level1 lfo1;&lt;br/&gt;     tab-stops:list 36.0pt&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;border: 1pt none windowtext; padding: 0cm;&quot;&gt;После программирования данные остаются неизменными&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; border: 1pt none windowtext; padding: 0cm;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-size:12.0pt;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:&lt;br/&gt;     &amp;quot;Times New Roman&amp;quot;;mso-fareast-language:RU&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;background-color: initial; display: inline !important;&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#000000&quot;&gt;4. MROM (Masked ROM):&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Это тип Read-Only Memory, в котором данные программы заранее записаны во время производства чипа.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Не предоставляет возможности перезаписи данных.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Используется для постоянного хранения фиксированных программ и данных.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Необходимость в маске (шаблоне) в процессе производства делает MROM менее гибким по сравнению с программируемыми ROM.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry y="490" width="403" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-31" value="&lt;div class=&quot;flex flex-grow flex-col max-w-full gap-3 gizmo:gap-0&quot;&gt;&lt;div data-message-author-role=&quot;assistant&quot; data-message-id=&quot;c8209af5-61eb-43c1-ad28-ae1616a19ed6&quot; class=&quot;min-h-[20px] text-message peer flex flex-col items-start gap-3 whitespace-pre-wrap break-words peer-[.text-message]:mt-5 overflow-x-auto&quot;&gt;&lt;div class=&quot;markdown prose w-full break-words dark:prose-invert dark&quot;&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;8.&lt;strong&gt; PCM (Phase-Change Memory):&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Использует свойства фазового перехода материала (например, селенида олова) между аморфным и кристаллическим состояниями для хранения данных.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Не имеет механических частей, что делает его более надежным в сравнении с некоторыми другими видами памяти.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Обладает высокой скоростью записи и чтения.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Используется в некоторых приложениях, таких как хранение данных и некоторые виды нефлуктуирующей памяти.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="407" y="840" width="420" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bGw3xRpWZ3hDp7nRGHOz-35" value="&lt;font color=&quot;#000000&quot;&gt;5. &lt;b style=&quot;&quot;&gt;EPROM (Erasable Programmable Read-Only Memory):&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: initial;&quot;&gt;Записываемая пользователем и перепрограммируемая после стирания.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: initial;&quot;&gt;Стирается с использованием ультрафиолетового света.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: initial;&quot;&gt;Используется для разработки и тестирования.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;6. &lt;b&gt;EEPROM (Electrically Erasable Programmable Read-Only Memory):&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: initial;&quot;&gt;Записываемая и перепрограммируемая электрическим путем.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: initial;&quot;&gt;Не требует ультрафиолетового света для стирания.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: initial;&quot;&gt;Используется в приложениях, где требуется частое изменение данных.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;7. &lt;b&gt;FLASH Memory:&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: initial;&quot;&gt;Быстрый доступ к данным.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: initial;&quot;&gt;Позволяет многократную перезапись блоками (секторами).&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(0, 0, 0); background-color: initial;&quot;&gt;Широко используется в современных устройствах для хранения программ и данных, таких как USB-накопители, SSD и микроконтроллеры.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;fontColor=default;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407" y="550" width="420" height="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

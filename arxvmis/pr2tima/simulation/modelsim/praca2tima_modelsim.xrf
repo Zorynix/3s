@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, praca2tima
+source_file = 1, C:/Users/Alex/Desktop/3sem/arxvmis/pr2tima/praca2tima.tdf
+source_file = 1, C:/Users/Alex/Desktop/3sem/arxvmis/pr2tima/db/praca2tima.cbx.xml
+design_name = praca2tima
+instance = comp, \Y~output\, Y~output, praca2tima, 1
+instance = comp, \C~input\, C~input, praca2tima, 1
+instance = comp, \B~input\, B~input, praca2tima, 1
+instance = comp, \A~input\, A~input, praca2tima, 1
+instance = comp, \D~input\, D~input, praca2tima, 1
+instance = comp, \Y~0\, Y~0, praca2tima, 1

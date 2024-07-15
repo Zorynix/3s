@@ -1,0 +1,8 @@
+# ninja log v5
+2	435	7178510366487939	CMakeFiles/3prac.dir/Book.cpp.obj	7d2c72f4736428f
+3	523	7178510558408294	CMakeFiles/3prac.dir/HashTable.cpp.obj	5fbf97172c93cf23
+1	1411	7178510567268894	CMakeFiles/3prac.dir/main.cpp.obj	e7b523b655a3fa0a
+1412	1479	7178510567946942	3prac.exe	b421f18c93557ee1
+9	910	7186476211235540	CMakeFiles/3prac.dir/HashTable.cpp.obj	5fbf97172c93cf23
+3	1961	7186476221747683	CMakeFiles/3prac.dir/main.cpp.obj	e7b523b655a3fa0a
+1961	2094	7186476223041389	3prac.exe	b421f18c93557ee1

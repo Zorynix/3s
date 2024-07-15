@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Alex/Desktop/3sem/arxvmis/pr1tima/pr1timfad.bdf
+source_file = 1, C:/Users/Alex/Desktop/3sem/arxvmis/pr1tima/db/pr1timfad.cbx.xml
+design_name = pr1timfad
+instance = comp, \Y~output\, Y~output, pr1timfad, 1
+instance = comp, \D~input\, D~input, pr1timfad, 1
+instance = comp, \A~input\, A~input, pr1timfad, 1
+instance = comp, \B~input\, B~input, pr1timfad, 1
+instance = comp, \C~input\, C~input, pr1timfad, 1
+instance = comp, \inst4~0\, inst4~0, pr1timfad, 1

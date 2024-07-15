@@ -1,0 +1,87 @@
+//task3
+#!/bin/bash
+str1=$*
+len1=${#str1}
+echo -n "+-"
+for ((a=1;a<=len1;a++))
+do
+echo -n "-"
+done
+echo "-+"
+echo "| $str1 |"
+echo -n "+-"
+for ((a=1;a<=len1;a++))
+do
+echo -n "-"
+done
+echo "-+"
+
+
+
+//task4
+#!/bin/bash
+grep -o "[a-zA-Z]*" hello.cpp | sort -u
+
+
+#include <iostream>
+using namespace std;
+int main(){
+        cout << "Hello, Hi!";
+        return 0;
+}
+
+
+//task 5
+#!/bin/bash
+chmod u+rwx $1
+cp $1 /usr/local/bin
+
+//task6
+#!/bin/bash
+line=$(head -1 $1)
+if [[ $line == "//"* ]] || [[ $line == "#"*  ]]; then
+echo "First line have comment"
+else
+echo "First line don't have comment"
+fi
+
+//task7
+
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+  echo "Использование: $0 <путь_к_каталогу>"
+  exit 1
+fi
+
+directory="$1"
+
+# Поиск дубликатов с использованием md5sum
+find "$directory" -type f -print0 | xargs -0 md5sum | sort | uniq -d -w 32 | sed -r 's/^[0-9a-f]*( )//' | while read -r duplicate; do
+  echo "Дубликат: $duplicate"
+done
+
+
+//task8
+#!/bin/bash
+find -name "*.$1" | tar -cf archieve.tar -T -
+
+
+
+//task9
+
+#!/bin/bash
+sed "s/    /\t/g" ./$1 >> $2
+
+
+ff    4    4
+    r    w
+    q        t               
+
+//task10
+
+#!/bin/bash
+find $1 -type f -size 0 -maxdepth 1
+
+
+

@@ -1,0 +1,3 @@
+C:/Users/Alex/Desktop/3sem/SIAOD/7prac/build/CMakeFiles/7prac.dir
+C:/Users/Alex/Desktop/3sem/SIAOD/7prac/build/CMakeFiles/edit_cache.dir
+C:/Users/Alex/Desktop/3sem/SIAOD/7prac/build/CMakeFiles/rebuild_cache.dir

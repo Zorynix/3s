@@ -1,0 +1,61 @@
+SUBDESIGN 'pract7'
+(
+a,b,clock:INPUT;
+q[3..0]:OUTPUT;
+)
+
+VARIABLE
+na,nb: NODE;
+newq0,newq1,newq2,newq3: NODE;
+st0,st1,st2,st3,st4,st5,st6,st7,st8,st9,st10,st11,st12,st13,st14,st15: NODE;
+r0,r1,r2,r3,r4,r5: NODE;
+trig0,trig1,trig2,trig3: dff;
+
+BEGIN
+na = !a;
+nb = !b;
+st0 = !q0&!q1&!q2&!q3;
+st1 = q0&!q1&!q2&!q3;
+st2 = !q0&q1&!q2&!q3;
+st3 = q0&q1&!q2&!q3;
+st4 = !q0&!q1&q2&!q3;
+st5 = q0&!q1&q2&!q3;
+st6 = !q0&q1&q2&!q3;
+st7 = q0&q1&q2&!q3;
+st8 = !q0&!q1&!q2&q3;
+st9 = q0&!q1&!q2&q3;
+st10 = !q0&q1&!q2&q3;
+st11 = q0&q1&!q2&q3;
+st12 = !q0&!q1&q2&q3;
+st13 = q0&!q1&q2&q3;
+st14 = !q0&q1&q2&q3;
+st15 = q0&q1&q2&q3;
+
+r0 = st9&!a;
+r1 = st9&a;
+r2 = st13&!b;
+r3 = st13&b;
+r4 = st12&!b;
+r5 = st12&b;
+
+newq0 = st2#r0#r1#st10#st6#st5#r4#r5#st0#st4;
+newq1 = r0#st15#r2#st5#st8#st14#r4#r5;
+newq2 = r0#st10#r2#r3#st6#st5#st8#st1#st0#st4;
+newq3 = st2#r0#st15#st10#st7#st8#st1#r4;
+
+trig0.clk=clock;
+trig0.d=newq0;
+q[0]=trig0.q;
+
+trig1.clk=clock;
+trig1.d=newq1;
+q[1]=trig1.q;
+
+trig2.clk=clock;
+trig2.d=newq2;
+q[2]=trig2.q;
+
+trig3.clk=clock;
+trig3.d=newq3;
+q[3]=trig3.q;
+END;

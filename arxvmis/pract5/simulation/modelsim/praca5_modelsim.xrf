@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Alex/Desktop/3sem/arxvmis/pract5/praca5.bdf
+source_file = 1, C:/Users/Alex/Desktop/3sem/arxvmis/pract5/db/praca5.cbx.xml
+design_name = praca5
+instance = comp, \more~output\, more~output, praca5, 1
+instance = comp, \B0~input\, B0~input, praca5, 1
+instance = comp, \A0~input\, A0~input, praca5, 1
+instance = comp, \B2~input\, B2~input, praca5, 1
+instance = comp, \A2~input\, A2~input, praca5, 1
+instance = comp, \A1~input\, A1~input, praca5, 1
+instance = comp, \B1~input\, B1~input, praca5, 1
+instance = comp, \inst13~0\, inst13~0, praca5, 1
+instance = comp, \inst13~1\, inst13~1, praca5, 1

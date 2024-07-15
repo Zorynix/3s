@@ -1,0 +1,8 @@
+SUBDESIGN 'praca2kostya'
+(
+A,B,C,D :INPUT;
+Y:OUTPUT;
+)
+BEGIN
+Y=A # B # (C&D) # (A&D) # (B&D);
+END;

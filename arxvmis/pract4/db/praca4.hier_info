@@ -1,0 +1,21 @@
+|praca4
+x0 => _.IN0
+x0 => _.IN0
+x0 => _.IN0
+x0 => _.IN0
+x1 => _.IN0
+x1 => _.IN0
+x1 => _.IN1
+x1 => _.IN0
+x2 => _.IN1
+x2 => _.IN0
+x2 => _.IN0
+x2 => _.IN0
+x3 => _.IN0
+x3 => _.IN1
+x3 => _.IN0
+x3 => _.IN1
+Y0 <= Y0.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,50 @@
+//1
+local student(name,age,group) = {
+"age": age,
+"name": name,
+"group": group,
+};
+local groupN = "ИКБО-%g-%g";
+{
+groups: [
+(groupN%[x,22]) for x in std.range(1,25)
+],
+students:[
+student("Иванов И.И.",19,"ИКБО-4-22"),
+student("Петров П.П.",18,"ИКБО-5-22"),
+student("Смирнов С.С.",19,"ИКБО-5-22"),
+student("Солобай А.П.",18,"ИКБО-12-22"),
+],
+"subject": "Конфигурационное управление"
+}
+
+//2
+let generate = https://prelude.dhall-lang.org/List/generate
+let student = \(age: Natural) ->
+\(group : Natural) -> \(name: Text) ->{
+age = age,
+group="ИКБО-"++ Natural/show group ++ "-22",
+name = name}
+let group = \(n: Natural) -> "ИКБО-"
+++ Natural/show n ++ "-22"
+let groups = generate 25 Text group
+let student=[
+student 19 4 "Смирнов С.С.",
+student 18 5 "Петров П.П.",
+student 18 12 "Солобай А.П."]
+let subject = "Конфигурационное управление"
+in {groups,student,subject}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

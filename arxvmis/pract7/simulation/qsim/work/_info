@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Alex\Desktop\3sem\arxvmis\pract7\simulation\qsim
+vpract7
+Z1 !s100 fSa=0NG>QNPI;2d?]0l<g1
+Z2 IKP?fm0B0Go=cOZHo^Sf9b3
+Z3 VTgm?hlnDCNd<@JdWf=oOX1
+Z4 dC:\Users\Alex\Desktop\3sem\arxvmis\pract7\simulation\qsim
+Z5 w1698164188
+Z6 8pract7.vo
+Z7 Fpract7.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|pract7.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1698164188.634000
+Z12 !s107 pract7.vo|
+!s101 -O0
+vpract7_vlg_check_tst
+!i10b 1
+!s100 O1`K[bLMP9o7oeBV2E]Jl1
+IDhThm@X_[OHmWma0OHWO]1
+Z13 V^LEfh9Ch7`VCPcCUA>[P63
+R4
+Z14 w1698164187
+Z15 8a1b1.vwf.vt
+Z16 Fa1b1.vwf.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z17 !s108 1698164188.665000
+Z18 !s107 a1b1.vwf.vt|
+Z19 !s90 -work|work|a1b1.vwf.vt|
+!s101 -O0
+R10
+vpract7_vlg_sample_tst
+!i10b 1
+!s100 ;7N<=69[f<XhUA2oVn<HR3
+IeJFhKzW<=IDKz^OXlH:o?1
+Z20 ViQc8IJ^la2fncg_[iaUEV1
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+vpract7_vlg_vec_tst
+!i10b 1
+!s100 ]3aYiNF7ATbgEj^cIFGL30
+I[@H9@4_FKfWM8H3=ADJSX2
+Z21 V<837H6ER2o4?WGk7CcgMM1
+R4
+R14
+R15
+R16
+Z22 L0 209
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10

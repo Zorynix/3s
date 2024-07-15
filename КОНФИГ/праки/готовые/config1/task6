@@ -1,0 +1,39 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+  echo "Использование: $0 <путь_к_каталогу>"
+  exit 1
+fi
+
+directory="$1"
+
+# Проверяем, существует ли указанный каталог
+if [ ! -d "$directory" ]; then
+  echo "Каталог $directory не существует."
+  exit 1
+fi
+
+# Проверяем наличие комментария в первой строке файла
+check_comment() {
+    local file="$1"
+    local extension="${file##*.}"  # Получаем расширение файла
+
+    # Если расширение файла соответствует .c, .js или .py
+    if [[ "$extension" == "c" || "$extension" == "js" || "$extension" == "py" ]]; then
+        # Считываем первую строку файла и проверяем, начинается ли она с комментария
+        first_line=$(head -n 1 "$file")
+        if [[ "$first_line" =~ ^[[:space:]]*\/\/.* || "$first_line" =~ ^[[:space:]]*#.* ]]; then
+            echo "Файл $file содержит комментарий в первой строке."
+        else
+            echo "Файл $file не содержит комментария в первой строке."
+        fi
+    fi
+}
+
+# Перебираем файлы в указанном каталоге
+for file in "$directory"/*; do
+    if [ -f "$file" ]; then
+        check_comment "$file"
+    fi
+done
+

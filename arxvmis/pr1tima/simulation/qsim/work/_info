@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Alex\Desktop\3sem\arxvmis\pr1tima\simulation\qsim
+vpr1timfad
+Z1 !s100 @<4oFM;K:GVcVko=HJ38N2
+Z2 IgVNnBIHiUHf4VANbz0=NP0
+Z3 VXddDYz4AA3@iaM>86hfjH0
+Z4 dC:\Users\Alex\Desktop\3sem\arxvmis\pr1tima\simulation\qsim
+Z5 w1695969738
+Z6 8pr1timfad.vo
+Z7 Fpr1timfad.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|pr1timfad.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1695969739.319000
+Z12 !s107 pr1timfad.vo|
+!s101 -O0
+vpr1timfad_vlg_check_tst
+!i10b 1
+Z13 !s100 9>gJ^XDWcYT7[9O4M?Sb?0
+Z14 IK0W66:3XADXa`jUNeUz;D0
+Z15 VJ@7j?_U>dXU5GgA8Qecz71
+R4
+R5
+Z16 8Waveform.vwf.vt
+Z17 FWaveform.vwf.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z18 !s108 1695969739.348000
+Z19 !s107 Waveform.vwf.vt|
+Z20 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vpr1timfad_vlg_sample_tst
+!i10b 1
+Z21 !s100 BYdl32Kbc70[TEKhA=QLj3
+Z22 IBKnEz;=HJOKeeZZZCU30c0
+Z23 VSfHVibd^W5a?7RCkm<0TT2
+R4
+R5
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+vpr1timfad_vlg_vec_tst
+!i10b 1
+Z24 !s100 U9392Zm>LbWCam>lZEPIB3
+Z25 Ij@gemjKDNZOlo6i?Eg5AE0
+Z26 V>hh`;RYmB7;?oaa75OhYF0
+R4
+R5
+R16
+R17
+Z27 L0 158
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10

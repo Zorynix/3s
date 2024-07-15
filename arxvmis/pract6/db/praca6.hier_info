@@ -1,0 +1,16 @@
+|praca6
+q[0] <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+clk => inst5.CLK
+clk => inst6.CLK
+clk => inst7.CLK
+clk => inst8.CLK
+a => inst9.IN1
+a => inst3.IN0
+b => inst4.IN0
+b => inst13.IN1
+b => inst11.IN1
+
+

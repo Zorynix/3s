@@ -1,0 +1,8 @@
+SUBDESIGN 'praca2tima'
+(
+A,B,C,D :INPUT;
+Y:OUTPUT;
+)
+BEGIN
+Y=!c & d # b and (c $ a);
+END;

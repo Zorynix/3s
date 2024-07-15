@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Alex\Desktop\3sem\arxvmis\pract2\simulation\qsim
+vpract2
+Z1 !s100 jOJ?E=MZW2dV[o0miSB5h0
+Z2 IMZ4<KCOEc<7Kcc_Eg8^PH1
+Z3 V<l14:=hLiSe[0OEiO[Ib00
+Z4 dC:\Users\Alex\Desktop\3sem\arxvmis\pract2\simulation\qsim
+Z5 w1698158972
+Z6 8pract2.vo
+Z7 Fpract2.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|pract2.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1698158972.720000
+Z12 !s107 pract2.vo|
+!s101 -O0
+vpract2_vlg_check_tst
+!i10b 1
+Z13 !s100 XjG`Mc_Z?CB]1ELY^0RQ?3
+Z14 Ijg59g6SSmacgcV493a`Ke0
+Z15 VY[BY0X>EaIYXP_:=bXa121
+R4
+Z16 w1698158971
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z19 !s108 1698158972.755000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vpract2_vlg_sample_tst
+!i10b 1
+Z22 !s100 ]35:STE^XWOYhLQPL8VcG3
+Z23 II2RQ<9J;bGJ1Lz3WS>IfB2
+Z24 VloCZ<jAIXF_K?UOWKZhn>3
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vpract2_vlg_vec_tst
+!i10b 1
+Z25 !s100 I[Thf?zdDC]Mz5fVgGNA=2
+Z26 I^^RP9YO4:KZjjfI^NonZJ1
+Z27 V^[Ih9f2>D25zL=GznX?W@1
+R4
+R16
+R17
+R18
+Z28 L0 158
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

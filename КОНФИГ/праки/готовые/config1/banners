@@ -1,0 +1,20 @@
+#!/bin/bash
+
+if [ $# -ne 1 ]; then
+  echo "Использование: $0 \"текст для баннера\""
+  exit 1
+fi
+
+text="$1"
+text_length=${#text}
+border_length=$((text_length + 4))
+
+# Вывод верхней границы
+echo "+$(printf -- '-%.0s' $(seq 1 $border_length))+"
+
+# Вывод текста в баннере
+echo "| $text |"
+
+# Вывод нижней границы
+echo "+$(printf -- '-%.0s' $(seq 1 $border_length))+"
+
